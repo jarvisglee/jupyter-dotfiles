@@ -21,6 +21,7 @@ call plug#end()
 
 " Editor View Settings
 syntax enable
+colorscheme monokai
 set number
 set term=screen-256color
 filetype plugin indent off
