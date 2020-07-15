@@ -21,7 +21,6 @@ call plug#end()
 
 " Editor View Settings
 syntax enable
-colorscheme monokai
 set number
 set term=screen-256color
 filetype plugin indent off
@@ -60,4 +59,4 @@ let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 0
 let g:syntastic_auto_loc_list = 0
 let g:syntastic_loc_list_height = 5
-let g:syntastic_quiet_messages = { 'regex': 'F841' }
+let g:syntastic_enable_highlighting = 0
